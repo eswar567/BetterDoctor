@@ -11,8 +11,8 @@ import argparse
 
 
 parser=argparse.ArgumentParser()
-parser.add_argument("match_file", help = "match csv file")
-parser.add_argument("source_file", help = "source json file")
+parser.add_argument("match_file", help = "provide match csv file path")
+parser.add_argument("source_file", help = "provide source json file path")
 args=parser.parse_args()
 
 
